@@ -31,7 +31,9 @@ public partial class Associate_wellcomeletter : System.Web.UI.Page
         if (ds.Tables["TBL_ASSOCIATEMASTER"].Rows.Count > 0)
         {
             Label1.Text = ds.Tables["TBL_ASSOCIATEMASTER"].Rows[0]["NAME"].ToString();
-            Label2.Text = ds.Tables["TBL_ASSOCIATEMASTER"].Rows[0]["ASSID"].ToString();
+           
         }
+        
+         Label2.Text = ds.Tables["TBL_ASSOCIATEMASTER"].Rows[0]["ASSID"].ToString();
     }
 }
