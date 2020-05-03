@@ -33,11 +33,5 @@ public partial class Associate_wellcomeletter : System.Web.UI.Page
             Label1.Text = ds.Tables["TBL_ASSOCIATEMASTER"].Rows[0]["NAME"].ToString();
             Label2.Text = ds.Tables["TBL_ASSOCIATEMASTER"].Rows[0]["ASSID"].ToString();
         }
-            
-
-
-
-
-
     }
 }
